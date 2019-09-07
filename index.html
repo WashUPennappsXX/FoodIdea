@@ -7,18 +7,29 @@
     <body>
         <h1>Food Bracket!</h1>
         <div> 
-            <p>I am looking for</p>
-            <input type="text">
-            <p>I am willing to get food from</p>
-            <input type="range" min="1" max="100" value="10">
-            <p>I am willing to pay</p>
-            <select name="" id="">
-                <option value="none">Price Range</option>
-                <option value="one">$</option>
-                <option value="two">$$</option>
-                <option value="three">$$$</option>
-                <option value="four">$$$$</option>
-            </select>
+            <form action="">
+                <p>I am looking for</p>
+                <input type="text">
+                <p>I am willing to get food from</p>
+                <select name="dist" id="dist">
+                    <option value="none">Distance</option>
+                    <option value="1">1 mile away</option>
+                    <option value="5">5 miles away</option>
+                    <option value="10">10 miles away</option>
+                    <option value="15">15 miles away</option>
+                    <option value="20">20 miles away</option>
+                    <option value="30">30 miles away</option>
+                    <option value="40">40 miles or further</option>
+                </select>
+                <p>I am willing to pay</p>
+                <select name="price" id="price">
+                    <option value="none">Price Range</option>
+                    <option value="one">$</option>
+                    <option value="two">$$</option>
+                    <option value="three">$$$</option>
+                    <option value="four">$$$$</option>
+                </select>
+            </form>
         </div>
     </body>
 </html>
