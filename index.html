@@ -5,14 +5,19 @@
         <meta charset="UTF-8">
     </head>
     <body>
-        <h1>Food Bracket!</h1>
+        <h1>BlockMarket Delivery</h1>
         <div> 
             <form action="">
-                <p>I am looking for</p>
-                <input type="text">
+                <p>I am looking for grocery from</p>
+                <select name="category" id="name"></select>
+                <option value="Walmart">Distance</option>
+                <option value="Schnucks">1 mile away</option>
+                <option value="TraderJoes">5 miles away</option>
+                <option value="WholeFood">10 miles away</option>
+            
+
                 <p>I am willing to get food from</p>
                 <select name="dist" id="dist">
-                    <option value="none">Distance</option>
                     <option value="1">1 mile away</option>
                     <option value="5">5 miles away</option>
                     <option value="10">10 miles away</option>
@@ -24,10 +29,11 @@
                 <p>I am willing to pay</p>
                 <select name="price" id="price">
                     <option value="none">Price Range</option>
-                    <option value="one">$</option>
-                    <option value="two">$$</option>
-                    <option value="three">$$$</option>
-                    <option value="four">$$$$</option>
+                    <option value="$10-"></option>
+                    <option value="$10-$30"></option>
+                    <option value="$30-$50"></option>
+                    <option value="$50-$100"></option>
+                    <option value="$100+"></option>
                 </select>
                 <input type="button" value="go" onclick="getStuff()">
             </form>
